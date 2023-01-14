@@ -1,6 +1,4 @@
-# Symfony Sample
-
-Hamza Javed Task
+# Hamza Javed Task
 
 ## Build 
 
