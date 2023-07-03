@@ -1,5 +1,5 @@
 {
-  "name": "HamzaTest",
+  "name": "hamzajaved/task",
   "description": "Restful APIs Hamza",
   "authors": [
     {
@@ -7,7 +7,7 @@
       "email": "Iamhamzajaved@gmail.com"
     }
   ],
-  "type": "project",
+  "type": "array",
   "license": "GPL-3.0-or-later",
   "minimum-stability": "stable",
   "prefer-stable": true,

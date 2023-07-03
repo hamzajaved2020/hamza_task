@@ -13,6 +13,7 @@ class Product
     private string $sku;
     private string $name;
     private string $category;
+    private ArrayCollection $content;
 
     #[Pure] public function __construct()
     {

@@ -29,6 +29,6 @@ class ProductController extends AbstractController
     public function all(#[QueryParam] string $category,#[QueryParam] int $priceLessThen,#[QueryParam] int $limit): Response
     {
         $data = $this->product->findProducts($category ?: '',$priceLessThen,$limit);
-        return $this->json($data);
+        return $this->json(array("products"=>$data));
     }
 }
